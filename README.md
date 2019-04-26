@@ -48,6 +48,6 @@ You can change the format, the name of the BigQuery project and the table name b
 
 ## Disclamier
 
-This tutorial is openly inspired by the official Google resource at: https://github.com/GoogleCloudPlatform/cloudml-samples/tree/master/molecules
+This tutorial is openly inspired by the official Google resource at: https://github.com/GoogleCloudPlatform/cloudml-samples/tree/master/molecules.
 
 Please refer to it for more information on how to extend the pipeline and attach to it CMLE to Train & Serve ML models.
