@@ -45,3 +45,8 @@ You can change the format, the name of the BigQuery project and the table name b
 - `bigquery_table_specs.py` contains the specifications for the tables on BigQuery
 - `pipeline_utils.py` contains the classes to read the CSV files, and handle the different chunks in different machines
 - `record_utils.py` containes the definitions of the processing steps to perform on the records that has been read from the CSV
+
+## Disclamier
+
+This tutorial is openly inspired by the official Google resource at: https://github.com/GoogleCloudPlatform/cloudml-samples/tree/master/molecules
+Please refer to it for more information on how to extend the pipeline and attach to it CMLE to Train & Serve ML models.
