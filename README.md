@@ -46,7 +46,7 @@ You can change the format, the name of the BigQuery project and the table name b
 - `pipeline_utils.py` contains the classes to read the CSV files, and handle the different chunks in different machines
 - `record_utils.py` containes the definitions of the processing steps to perform on the records that has been read from the CSV
 
-## Disclamier
+## Disclaimer
 
 This tutorial is openly inspired by the official Google resource at: https://github.com/GoogleCloudPlatform/cloudml-samples/tree/master/molecules.
 
