@@ -5,9 +5,13 @@ Google Storage and upload them on Google BigQuery using Apache Beam (Google Data
 ## Installation
 
 `git clone https://github.com/CalogeroZarbo/apache-beam-py3.5`
+
 `cd apache-beam-py3.5`
+
 `conda create -n apache-beam-py3.5 python=3.5`
+
 `conda activate apache-beam-py3.5`
+
 `pip install -r requirements.txt `
 
 ## Usage
