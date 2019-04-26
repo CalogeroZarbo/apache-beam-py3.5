@@ -32,7 +32,9 @@ The CSV table format (as per `dataflow_tutorial/bigquery_table_specs.py`) should
 You can change the format, the name of the BigQuery project and the table name by modifying the file `dataflow_tutorial/bigquery_table_specs.py`.
 
 `export PROJECT=sample_project`
+
 `export WORK_DIR=gs://sample_bucket/sample_data/`
+
 `python preprocess.py --project $PROJECT --runner DataflowRunner --temp_location $WORK_DIR/beam-temp --setup_file ./setup.py --work-dir $WORK_DIR --region europe-west1`
 
 ## Brief Explanation of the files
