@@ -25,7 +25,6 @@ def run(
         files_pattern,
         table_name,
         table_schema,
-        credit_type,
         feature_scaling=None,
         eval_percent=20.0,
         beam_options=None,
@@ -79,6 +78,5 @@ if __name__ == '__main__':
         data_files_pattern,
         table_name = dataflow_tutorial.table_name,
         table_schema = dataflow_tutorial.table_schema,
-        credit_type= args.asset_class,
         beam_options=beam_options,
         work_dir=args.work_dir)

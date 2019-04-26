@@ -12,7 +12,7 @@ from apache_beam.io import filebasedsource
 from tensorflow_transform.tf_metadata import dataset_schema
 
 
-class ParseRecords(sfilebasedsource.FileBasedSource):
+class ParseRecords(filebasedsource.FileBasedSource):
     def __init__(self, file_pattern):
         super(ParseRecords, self).__init__(file_pattern, splittable=False)
 
