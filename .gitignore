@@ -3,3 +3,4 @@
 .vscode
 local_data/
 *.egg*
+.DS_Store
